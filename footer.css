@@ -1,0 +1,101 @@
+footer{
+  background-color: #66733c;
+  color: white;
+  text-align: center;
+  align-items: center;
+
+}
+
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+  margin: auto;
+}
+
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+}
+
+footer .footer__content ul li a{
+  display: inline-block;
+  padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+  footer{
+    background-color: var(--light-tertiary-color);
+}
+
+footer .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+  }
+
+
+
+footer .footer__content ul li {
+    display: inline-block;
+}
+
+footer .footer__content ul li a{
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+}
+}
+
+#doacao {
+  margin-left: 8%;
+}
+#cabecalho{
+  background-color: #66733c;
+  margin: -8px;
+  padding: 15px;
+
+
+}
+.my-unique-footer-class {
+  background-color: #66733c; /* Cor de fundo do footer */
+  color: #fff; /* Cor do texto do footer */
+  padding: 0px; /* Espaçamento interno */
+}
+
+.my-unique-footer-class h2 {
+  font-size: 24px; /* Tamanho da fonte do título */
+}
+
+.my-unique-footer-class p {
+  font-size: 16px; /* Tamanho da fonte do texto */
+}
+
+.my-unique-footer-class .footer__contact span {
+  display: block; /* Coloca as informações de contato em linhas separadas */
+  font-size: 18px; /* Tamanho da fonte das informações de contato */
+}
+
+.my-unique-footer-class ul {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o espaçamento interno da lista */
+  display: flex; /* Alinha os ícones social em uma linha */
+  justify-content: center; /* Centraliza os ícones social horizontalmente */
+}
+
+.my-unique-footer-class ul li {
+  margin: 0 10px; /* Espaçamento entre os ícones sociais */
+}
+
+.my-unique-footer-class .footer__copyright {
+  font-size: 12px; /* Tamanho da fonte do aviso de direitos autorais */
+}
+

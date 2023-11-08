@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeafLife</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="./App/sign-in.css" rel="stylesheet">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="projetos.css">
+  <link rel="shortcut icon" href="folha.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- SVG -->
+  
+     
+  <!-- Barra de Menu  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div id="cabecalho" class="container-fluid">
+      <a class="navbar-brand" href="#""><span>LeafLife</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#como-funciona">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#planos">Como ajudar?</a>
+          </li>
+        </ul>
+      </div>
+<!-- 
+      <div class="text-end" id="menu-login-sign-up">
+        <button type="button" class="btn btn-outline-primary me-2" id="heroLateralSignInButton">Entrar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='#planos'">Sign-up</button>
+      </div> -->
+
+      <div class="d-flex align-items-center" id="menuLoggedSection">
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <!-- Hero -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom" id="hero">
+      <h1 class="display-4 fw-bold">LeafLife: uma iniciativa de sustentabilidade, deixando sua cidade mais arborizada!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Somos o um programa de Pernambuco de incentivos de atitudes socioambientais,
+          usando ciência comportamental e tecnologia para promover a restauração ambiental e a conscientização, criando um ambiente mais verde e sustentável. </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+         
+          
+        </div>
+      </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="sol.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img_e7670-24360853.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="viveiro_03.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- <div class="overflow-hidden" style="max-height: 100vh;">
+        <div class="container px-5">
+          <img src="arvore.jpg"
+            class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500"
+            loading="lazy">
+        </div> -->
+      </div>
+    </div>
+    <!-- Features -->
+    <div class="container px-4 py-5" id="como-funciona">
+      <h2 class="pb-2 border-bottom">Conheça mais sobre nós:</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#toggles2" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2">Missão</h3>
+            <p>O projeto busca combater o desmatamento em áreas menos arborizadas de Recife, criando um ambiente mais verde
+             e sustentável para as gerações futuras, além de inspirar outras comunidades a se envolverem na conservação ambiental.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#cpu-fill" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2">Visão</h3>
+            <p>Visamos alcançar a colaboração com a comunidade, 
+                ajudando a ganhar apoio local.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#tools" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2">Valores</h3>
+            <p>Priorizamos o valor dado à educação ambiental que pode aumentar
+             a conscientização sobre a problemática do desmatamento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing -->
+    <div id="planos">
+      <h2 class="pb-2 border-bottom" id="doacao">Doação</h2>
+      <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Doe o quanto você puder </h4>
+            </div>
+             <div class="card-body">
+                <img src="recursos-naturais.png" alt="árvore" width="150px">
+               
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Com a sua contribuição podemos</li>
+                <li>continuar trabalhando para ajudar</li>
+                <li>a restauração das áreas mais afetadas</li>
+                <li>nos centros urbanos.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="planosSignUpFreeButton">Doe agora</button>
+            </div> 
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Faça sua parte</h4>
+            </div>
+            <div class="card-body">
+              <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+              <lord-icon
+                  src="https://cdn.lordicon.com/qeemqlwz.json"
+                  trigger="hover"
+                  style="width:150px;height:150px">
+              </lord-icon>
+              <!-- <h1 class="card-title pricing-card-title">R$9,90<small class="text-muted fw-light">/mês</small></h1> -->
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>A preservação do meio ambiente  </li>
+                <li>é uma questão importante para </li>
+                <li>gerações futuras.</li>
+                <li>Sua atitude conta</li>
+                <li>Plante uma árvore</li>
+                <br>
+              </ul>
+              <!-- <button type="button" class="w-100 btn btn-lg btn-primary" id="planosSignUpPremiumButton">Sign up</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    </main> 
+   
+   
+        
+        
+    <!-- Footer -->
+    
+    <!--Footer-->
+    <footer class="my-unique-footer-class">
+      <div class="max-width mb-0">
+          <h2 class="tertiary-title mb-s">Entre em contato conosco por nossas redes sociais!</h2>
+          <p class="mb-m">
+              Ficamos feliz em saber que você tem interesse em conhecer nossos projetos e como podemos
+              trabalhar juntos para torná-los realidade.
+          </p>
+          <div class="footer__contact mb-m">
+              <span class="mb-m">LeafLife@gmail.com</span>
+              <span>81 4022-8922</span>
+          </div>
+          <ul class="mb-l">
+              <li><a href="https://instagram.com/leaflife_project?igshid=NzZlODBkYWE4Ng=="><img src="instagram.png" alt="Instagram" width="50px"></a></li>
+              <li><a href="#" target="_blank"><img src="linkedin.png" alt="Linkedin" width="50px"></a></li>
+              <li><a href="#"><img src="twitter.png" alt="twitter" width="50px"></a></li>
+          </ul>
+          <p class="footer__copyright"><small>© 2023 LeafLife. Todos os direitos reservados</small></p>
+      </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="./App/script.js"></script>
+</body>
+
+</html>
